@@ -87,15 +87,15 @@
                         <img src="assets/img/perfil.png" alt="" class="home__img">
                     </div>
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/in/joao-victor-044b96232/" class="home__social-link">
+                        <a href="https://www.linkedin.com/in/joao-victor-044b96232/" target class="home__social-link">
                             <i class='bx bxl-linkedin' ></i>
                         </a>
 
-                        <a href="https://github.com/JaoTheBest" class="home__social-link">
+                        <a href="https://github.com/JaoTheBest" target class="home__social-link">
                             <i class='bx bxl-github' ></i>
                         </a>
 
-                        <a href="https://www.instagram.com/joao_the_bestt/" class="home__social-link">
+                        <a href="https://www.instagram.com/joao_the_bestt/" target="_blank" class="home__social-link">
                             <i class='bx bxl-instagram' ></i>
                         </a>
                     </div>
@@ -216,53 +216,265 @@
             <section class="services section">
                 <span class="section__subtitle">Meus Serviços</span>
                 <h2 class="section__title">O que eu tenha a oferecer</h2>
+
                 <div class="services__container container grid">
                     <div class="services__card">
                         <h3 class="services__title">Ui/Ux <br> Designs</h3>
 
                         <span class="services__button">
-                            Veja mais <i class='bx bx-right-arrow-alt'></i>
+                            Veja mais <i class='bx bx-right-arrow-alt services__icon'></i>
                         </span>
+
+                        <div class="services__modal">
+
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Ui/Ux Designs</h3>
+                                <p class="services__modal-description">Trabalho com um pouco mais de 2 meses,
+                                 providenciando um execelente trabalho para cliente e empresas
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Desenvolvo interfaces de usuários
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Crio interações ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Posicionamento da marca da sua empresa
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
+
                     <div class="services__card">
                         <h3 class="services__title">Outros Projetos <br> JavaScript</h3>
 
                         <span class="services__button">
-                            Veja mais <i class='bx bx-right-arrow-alt'></i>
+                            Veja mais <i class='bx bx-right-arrow-alt services__icon'></i>
                         </span>
+                        <div class="services__modal">
+                            
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Outros Projetos JavaScript</h3>
+                                <p class="services__modal-description">Trabalho com um pouco mais de 2 meses,
+                                 providenciando um execelente trabalho para cliente e empresas
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Desenvolvo interfaces de usuários
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Crio interações ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check-double services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Posicionamento da marca da sua empresa
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
+                <span class="section__subtitle">Meu Portifolio</span>
+                <h2 class="section__title">Trabalhos Recentes</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter ='all'>Todos</span>
+                    <span class="work__item" data-filter ='.web'>Web</span>
+                    <span class="work__item" data-filter ='.movel'>Movel</span>
+                    <span class="work__item" data-filter ='.design'>Design</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix web">
+                        <img src="assets/img/Work1.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Design Web</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix movel">
+                        <img src="assets/img/Work2.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">App Movel</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+                    
+                    <div class="work__card mix design">
+                        <img src="assets/img/Work3.jpg" alt="" class="work__img">
+                        
+                        <h3 class="work__title">Design de marca</h3>
+                        
+                        <a href="#" class="work__button">
+                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a> 
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/Work4.jpg" alt="" class="work__img">
+    
+                        <h3 class="work__title">Design Web</h3>
+    
+                        <a href="#" class="work__button">
+                                Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+                        
+                    <div class="work__card mix movel">
+                        <img src="assets/img/Work5.jpg" alt="" class="work__img">
+    
+                        <h3 class="work__title">App Movel</h3>
+    
+                        <a href="#" class="work__button">
+                                Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <!--=============== TESTIMONIALS ===============-->
             <section class="testimonial section">
-                
+
             </section>
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-                
+                <span class="section__subtitle">Entrar em contato</span>
+                <h2 class="section__title">Contate-me</h2>
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Fale comigo</h3>
+
+                        <div class="contact__info">
+
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">user@gmail.com</span>
+                                <a href="mailto:user@gmail.com" target="_blank" class="contact__button">
+                                    Enviar Mensagem
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">999-888-777</span>
+                                <a href="https://api.whatsapp.com/send?phone=seunumerodetelefone&text=Ola, mais informaçoes!" target="_blank" class="contact__button">
+                                    Enviar Mensagem
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-messenger contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Messenger</h3>
+                                <span class="contact__card-data">user.fb123</span>
+                                <a href="https://www.facebook.com/profile.php?id=100008219476930" target="_blank" class="contact__button">
+                                    Enviar Mensagem
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Enviar Mensagem seu projeto</h3>
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Nomes</label>
+                                <input type="text" placeholder="Insira seu nome" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Email</label>
+                                <input type="email" placeholder="Insira seu email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Projeto</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Descreva seu projeto" class="contact__form-input"></textarea>
+                            </div>
+                        </form>
+                        <button class="button">Enviar Mensagem</button>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">Joao</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="footer__link">Projetos</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; JaoTheBest. Todos os direitos reservados
+                </span>
+            </div>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
         <script src=""></script>
 
         <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
+        <script src="assets/js/mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
